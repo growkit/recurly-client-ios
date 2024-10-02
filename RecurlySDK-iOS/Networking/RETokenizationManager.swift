@@ -27,6 +27,9 @@ public struct RETokenizationManager {
     public mutating func setBillingInfo(billingInfo: REBillingInfo) {
         self.billingInfo = billingInfo
     }
+    public mutating func setCardData(cardData: RECardData) {
+           self.cardData = cardData
+    }
     
     /// Set the ApplePaymentData that its going to be send for tokenization
     /// - Parameter applePaymentData: The ApplePaymentData received from the Apple Pay flow
